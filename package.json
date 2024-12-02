@@ -1,7 +1,8 @@
 {
   "name": "@POC/root-config",
   "scripts": {
-    "start": "webpack serve --port 4200 --env isLocal",
+    "start": "webpack serve --port 4200",
+    "start:local": "webpack serve --port 4200 --env isLocal",
     "lint": "eslint src --ext js,ts,tsx",
     "test": "cross-env BABEL_ENV=test jest --passWithNoTests",
     "format": "prettier --write .",
